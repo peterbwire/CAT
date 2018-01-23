@@ -1,0 +1,74 @@
+.heading{
+	float: left;
+	text-align: left;
+	width: 70%;
+	height: 40px}
+.link{
+	float: right;
+	text-align: right; 
+	width: 30%;
+	height: 10px}
+li{display: inline;}
+.container{
+	width: 70%;
+	height: 700px;
+	
+    background-repeat:no-repeat;
+	}
+.nav{
+	padding:1em 2em;
+	text-align:right;
+}
+ {
+    box-sizing: border-box;
+    padding:5px;
+}
+
+body {
+    margin: 0;
+
+}
+#img{
+	width:70%;
+	height:500px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.about{
+	width: 50%;
+	margin: 0 auto}
+.left{
+	width: 50%;
+	float: left;
+	height: 370px;
+	text-align: center;
+	margin: 0 auto
+;background-color: green}
+#head{
+	border: 2px white solid;
+	color: white;
+	margin: 0 auto;
+	text-align: center;}
+.footer{
+	background-color:red;
+	padding:20px;
+}
+
+.right{background-color: red; width: 50%;float: right;height: 370px;text-align:center;margin: 0 auto}
+a{color: blue;background-color: grey ;opacity: .8;border: 0;margin: 0;padding: 15px;border-radius: 15px;padding-left: 20px;padding-right: 20px}
+
+
+a:hover{border-radius: 15px;background-color: red;padding: 15px}
+a:active{background-color: red}
